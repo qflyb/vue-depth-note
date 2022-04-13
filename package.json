@@ -6,10 +6,10 @@
   "author": "myk <364390274@qq.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.38"
+    "vuepress": "^1.9.7"
   }
 }

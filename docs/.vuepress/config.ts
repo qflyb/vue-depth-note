@@ -10,17 +10,16 @@ export default defineConfig({
   themeConfig: {
     logo: "https://vuejs.org/images/logo.png",
     nav: [
-      { text: "Vue2", link: "/vue2/" },
-      { text: "Vue3", link: "/vue3/" },
+      { text: "Vue", link: "/vue/" },
     ],
     sidebar: {
-      "/vue2/": [
+      "/vue/": [
         {
-          title: "Vue2",
-          path: "/vue2/",
+          title: "Vue",
+          path: "/vue/",
           collapsable: false,
           sidebarDepth: 1,
-          children: ["/vue2/new-vue"],
+          children: ["/vue/new-vue"],
         },
       ],
     },
